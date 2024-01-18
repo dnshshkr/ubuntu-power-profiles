@@ -1,2 +1,3 @@
-# ubuntu-power-profiles
-Change power profiles on Ubuntu22
+# ubuntu-tools
+- Change power profiles on Ubuntu22
+- Watch CPU speed
