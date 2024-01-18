@@ -20,7 +20,7 @@ function set_power_profile {
             echo "Setting power profile to 'balanced'"
             gdbus call --system --dest net.hadess.PowerProfiles --object-path /net/hadess/PowerProfiles --method org.freedesktop.DBus.Properties.Set 'net.hadess.PowerProfiles' 'ActiveProfile' "<'balanced'>"
             ;;
-        "power-saving")
+        "power-saver")
             echo "Setting power profile to 'power-saver'"
             gdbus call --system --dest net.hadess.PowerProfiles --object-path /net/hadess/PowerProfiles --method org.freedesktop.DBus.Properties.Set 'net.hadess.PowerProfiles' 'ActiveProfile' "<'power-saver'>"
             ;;
